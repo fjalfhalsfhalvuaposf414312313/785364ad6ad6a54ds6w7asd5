@@ -19,7 +19,7 @@ local HRP = Character.PrimaryPart
 local part
 local dontTPOnDeath = true
 
-if LocalPlayer.PlayerStats.Level.Value == 50 then print("LV 50 STRING MATCHED") end end
+if LocalPlayer.PlayerStats.Level.Value == 50 then print("LV 50 STRING MATCHED") end
 
 if not LocalPlayer.PlayerGui:FindFirstChild("HUD") then
     print("I FOUND IT")
